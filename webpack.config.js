@@ -1,6 +1,9 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  
+   entry: './src/index.js',  
+
   // ...other config options...
   plugins: [
     new HtmlWebpackPlugin({

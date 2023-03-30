@@ -1,6 +1,7 @@
 {
   "name": "my-react-app",
   "version": "1.0.0",
+  "type": "module",
   "description": "A React app with smart contract functionality.",
   "main": "./src/index.js",
   "dependencies": {
