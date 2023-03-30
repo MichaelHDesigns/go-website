@@ -1,16 +1,12 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  
-   entry: './src/index.js',  
-
-  // ...other config options...
+  entry: '/home/devilking6105/go-website/src/index.js',
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html'
     })
-  ], 
-
+  ],
   module: {
     rules: [
       {
