@@ -15,7 +15,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "babel-eslint": "^10.1.0",
-    "eslint": "^5.16.0",
+    "eslint": "^8.37.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-formatter-stylish": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
