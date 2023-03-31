@@ -1,9 +1,9 @@
+import { JsonRpcProvider } from '@ethersproject/providers';
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import HomelessEmployment from '../abi/HomelessEmployment.json';
 import { ethers } from 'ethers';
 const { utils } = ethers;
-import { JsonRpcProvider } from '@ethersproject/providers';
 
 const provider = new JsonRpcProvider('http://206.189.231.104:8545');
 const signer = provider.getSigner();
