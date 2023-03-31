@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import { ethers } from 'ethers';
 import HomelessEmployment from '../abi/HomelessEmployment.json';
+import { ethers } from 'ethers';
+const { utils } = ethers;
+import { JsonRpcProvider } from '@ethersproject/providers';
+
+const provider = new JsonRpcProvider('http://206.189.231.104:8545');
+const signer = provider.getSigner();
 
 const JobsPage = ({ provider, signer }) => {
   const [jobs, setJobs] = useState([]);

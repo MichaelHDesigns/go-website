@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import donationABI from '../abi/Donation.json';
 import { ethers } from 'ethers';
+import { JsonRpcProvider } from '@ethersproject/providers';
+
+const provider = new JsonRpcProvider('http://206.189.231.104:8545');
+const signer = provider.getSigner();
+
 
 const DonatePage = () => {
   const [donationAmount, setDonationAmount] = useState('');
