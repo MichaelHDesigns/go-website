@@ -7,7 +7,7 @@ function HomePage() {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <div className="dropdown">
